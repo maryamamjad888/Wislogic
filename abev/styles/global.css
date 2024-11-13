@@ -1,0 +1,459 @@
+/*================================================
+Global CSS
+=================================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+:root {
+  --font-family: 'League Spartan', sans-serif;
+  --nunitoFontFamily: "Nunito Sans", sans-serif;
+  --redLightColor: #ff6870;
+  --blueDarkColor: #473bf0;
+  --lightGreenColor: #00b3cc;
+  --darkGreenColor: #2e85a1;
+  --crimsonColor: #ca526e;
+  --greenColor: #219956;
+  --greenColor2: #13965f;
+  --orangeColor: #ff5512;
+  --yellowColor: #ffaa29;
+  --MainColor: #fc5d65;
+  --purpleColor: #c211a1;
+  --paragraphColor: #616b7e;
+  --whiteColor: #ffffff;
+  --blackColor: black;
+  --transition: 0.5s;
+  --fontSize: 17px;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--blackColor);
+  font-size: var(--fontSize);
+  font-family: var(--fontFamily);
+  overflow-x: hidden;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--blackColor);
+  font-weight: 700;
+}
+
+a {
+  transition: var(--transition);
+  color: var(--paragraphColor);
+  text-decoration: none;
+  outline: 0 !important;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+:focus {
+  outline: 0 !important;
+}
+
+.d-table {
+  width: 100%;
+  height: 100%;
+}
+
+.d-table-cell {
+  vertical-align: middle;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  color:#252525;
+  font-size: var(--fontSize);
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.border-tb {
+  border: 1px solid #eee;
+  display: block;
+}
+
+.ptb-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.ptb-75 {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.mt-20{
+  margin-top: 20px !important;
+}
+.pt-75 {
+  padding-top: 75px;
+}
+
+.pb-75 {
+  padding-bottom: 75px;
+}
+.pb-40{
+  padding-bottom: 40px;
+}
+.bg-f9f9f9 {
+  background-color: #f9f9f9;
+}
+
+.bg-1d2b53 {
+  background-color: #1d2b53;
+}
+
+.bg-fff4f8 {
+  background-color: #fff4f8;
+}
+
+.bg-f3feff {
+  background-color: #f3feff;
+}
+
+.bg-fffbfb {
+  background-color: #fffbfb;
+}
+
+.bg-263238 {
+  background-color: #263238;
+}
+
+.bg-e8fcff {
+  background-color: #e8fcff;
+}
+
+.bg-dce1d6 {
+  background-color: #dce1d6;
+}
+.mt-40{
+  margin-top: 40px !important;
+}
+.mb-40{
+  margin-bottom: 40px;
+}
+.mt-100{
+  margin-top: 100px;
+}
+.nunito-font {
+  font-family: var(--nunitoFontFamily);
+}
+
+.br-bottom-100 {
+  border-radius: 0 0 100px 100px;
+}
+
+.bg-13965f {
+  background-color: var(--greenColor2);
+}
+
+.o-hidden {
+  overflow: hidden;
+}
+
+.bg-fff9ee {
+  background-color: #fff9ee;
+}
+
+.bg-711f7f {
+  background-color: #711f7f;
+}
+
+.mt-minus-40 {
+  z-index: 1;
+  margin-top: -40px;
+  position: relative;
+}
+.w-80{
+  width:82%
+}
+.pt-50{
+  padding-top: 50px;
+}
+.pt-40{
+  padding-top: 40px;
+}
+.pb-50{
+  padding-bottom: 50px;
+}
+/*btn*/
+.btn-style-one {
+  position: relative;
+  border-radius: 1px;
+  display: inline-block;
+  padding: 12px;
+  transition: var(--transition);
+  background-color: #ff6870;
+  font-size: 0.9em;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.btn-style-one:hover{
+  background-color: #fc5d65;
+}
+
+.btn-style-one i {
+  transform: translateY(-50%);
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  font-size: 23px;
+}
+.btn-style-one:hover{
+  color:white;
+}
+
+
+/*preloader*/
+.preloader-area {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  position: fixed;
+  background-color: var(--whiteColor);
+}
+
+.preloader-area .preloader {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.preloader-area .preloader .loader {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.preloader-area .preloader .loader div {
+  height: 100%;
+}
+
+.preloader-area .preloader .loader,
+.preloader-area .preloader .loader div {
+  padding: 8px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  -webkit-animation: rotate linear 3.5s infinite;
+  animation: rotate linear 3.5s infinite;
+  border-top-color: rgba(101, 92, 151, 0.5);
+  border-bottom-color: var(--redLightColor);
+}
+
+.preloader-area .preloader .waviy {
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  -webkit-box-reflect: below -47px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.preloader-area .preloader .waviy span {
+  position: relative;
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+  display: inline-block;
+  color: var(--blackColor);
+  -webkit-animation: waviy 1s infinite;
+  animation: waviy 1s infinite;
+}
+
+.preloader-area .preloader .waviy span:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.preloader-area .preloader .waviy span:nth-child(3) {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.preloader-area .preloader .waviy span:nth-child(4) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.preloader-area.deactivate {
+  display: none;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes waviy {
+
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+
+  20% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes waviy {
+
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+
+  20% {
+    transform: translateY(-20px);
+  }
+}
+
+/*# sourceMappingURL=global.css.map */
+.head {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: .88;
+  text-align: right;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.it-startup-banner-area .social-links {
+  position: absolute;
+  top: 44%;
+  left: 4%;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.it-startup-banner-area .social-links li {
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 13px;
+}
+
+.it-startup-banner-area .social-links li a {
+  width: 32px;
+  height: 32px;
+  display: block;
+  font-size: 12px;
+  border-radius: 53%;
+  text-align: center;
+  position: relative;
+  color: var(--whiteColor);
+  border: 2px solid white;
+  position: relative;
+  overflow: hidden;
+}
+
+.it-startup-banner-area .social-links li a i {
+  left: 0;
+  right: 0;
+  top: 50%;
+  line-height: 1;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+
+.it-startup-banner-area .social-links li a::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  background-color: var(--redLightColor);
+  border-radius: 50%; 
+  transform-origin: 50% 50%;
+  transform: scaleX(0) scaleY(0);
+  transition: transform 0.4s ease; 
+}
+
+.it-startup-banner-area .social-links li a:hover::before {
+  transform: scaleX(1); 
+  width:32px;
+  height:32px
+}
+
+.it-startup-banner-area .social-links li a:hover {
+  color: var(--whiteColor);
+}
+.it-startup-banner-area .social-links li:first-child {
+  margin-left: 0;
+}
+
+.it-startup-banner-area .social-links li:last-child {
+  margin-right: 0;
+}

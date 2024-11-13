@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_section_section3s",
+  "info": {
+    "displayName": "Section3",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "DetailText": {
+      "type": "blocks"
+    }
+  }
+}

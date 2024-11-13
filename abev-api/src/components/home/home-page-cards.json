@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_home_page_cards",
+  "info": {
+    "displayName": "HomePageCards",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "CardIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "CardTitle": {
+      "type": "string"
+    },
+    "CardText": {
+      "type": "text"
+    }
+  }
+}

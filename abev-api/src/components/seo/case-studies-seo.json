@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_seo_case_studies_seo_s",
+  "info": {
+    "displayName": "Case Studies(SEO)",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Country": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

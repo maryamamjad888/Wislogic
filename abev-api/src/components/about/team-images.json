@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_about_team_images",
+  "info": {
+    "displayName": "TeamImages",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Bio": {
+      "type": "string"
+    }
+  }
+}

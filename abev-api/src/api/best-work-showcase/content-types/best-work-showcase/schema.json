@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "best_work_showcases",
+  "info": {
+    "singularName": "best-work-showcase",
+    "pluralName": "best-work-showcases",
+    "displayName": "Best-Work-Showcase",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Cards": {
+      "displayName": "Cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.cards"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

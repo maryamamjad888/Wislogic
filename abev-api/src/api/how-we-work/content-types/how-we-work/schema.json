@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "how_we_works",
+  "info": {
+    "singularName": "how-we-work",
+    "pluralName": "how-we-works",
+    "displayName": "How-We-Work",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Steps": {
+      "displayName": "Steps",
+      "type": "component",
+      "repeatable": true,
+      "component": "step.steps"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

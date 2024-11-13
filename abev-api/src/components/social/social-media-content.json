@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_social_social_media_contents",
+  "info": {
+    "displayName": "SocialMediaContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TitleOne": {
+      "type": "string"
+    },
+    "DescriptionOne": {
+      "type": "text"
+    },
+    "Image1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Title2": {
+      "type": "string"
+    },
+    "Description2": {
+      "type": "text"
+    },
+    "Image2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

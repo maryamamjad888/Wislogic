@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_graphic_graphic_designing_cards",
+  "info": {
+    "displayName": "Graphic Designing Cards"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

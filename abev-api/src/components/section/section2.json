@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_section_section2s",
+  "info": {
+    "displayName": "Section2",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "CardIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "CardTitle": {
+      "type": "string"
+    },
+    "CardDescription": {
+      "type": "blocks"
+    }
+  }
+}

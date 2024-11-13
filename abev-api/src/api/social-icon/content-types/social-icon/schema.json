@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "social_icons",
+  "info": {
+    "singularName": "social-icon",
+    "pluralName": "social-icons",
+    "displayName": "Social-Icon"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Social": {
+      "displayName": "Social",
+      "type": "component",
+      "repeatable": true,
+      "component": "social.social",
+      "required": false
+    }
+  }
+}

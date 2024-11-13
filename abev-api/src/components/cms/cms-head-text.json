@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_cms_cms_head_texts",
+  "info": {
+    "displayName": "CmsHeadText"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

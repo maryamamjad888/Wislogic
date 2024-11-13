@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_choose_wislogics",
+  "info": {
+    "displayName": "ChooseWislogic"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "blocks"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

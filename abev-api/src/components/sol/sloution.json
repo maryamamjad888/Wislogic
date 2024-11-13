@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sol_sloutions",
+  "info": {
+    "displayName": "Sloution",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FirstBlock": {
+      "type": "richtext"
+    },
+    "SecondBlock": {
+      "type": "richtext"
+    },
+    "ThirdBlock": {
+      "type": "richtext"
+    },
+    "MiniBlocks": {
+      "displayName": "MiniBlocks",
+      "type": "component",
+      "repeatable": true,
+      "component": "block.mini-blocks"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_serv_our_services",
+  "info": {
+    "displayName": "OurServices",
+    "icon": "arrowUp"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

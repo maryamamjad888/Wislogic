@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_ppc_ppc_sections",
+  "info": {
+    "displayName": "PpcSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "MainTitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Title1": {
+      "type": "string"
+    },
+    "Description1": {
+      "type": "text"
+    },
+    "Title2": {
+      "type": "string"
+    },
+    "Description2": {
+      "type": "text"
+    },
+    "MainDescription": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_seo_seo_case_studies_texts",
+  "info": {
+    "displayName": "Seo Case Studies Text"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

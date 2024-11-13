@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_title_cards_section_titles",
+  "info": {
+    "displayName": "CardsSectionTitle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

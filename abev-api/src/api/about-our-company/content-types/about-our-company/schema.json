@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_our_companies",
+  "info": {
+    "singularName": "about-our-company",
+    "pluralName": "about-our-companies",
+    "displayName": "About-our-company",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "collectionName": "components_detail_service_detail_page_contents",
+  "info": {
+    "displayName": "ServiceDetailPageContent",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "BannerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Section1": {
+      "displayName": "Section1",
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section1"
+    },
+    "Section2": {
+      "displayName": "Section2",
+      "type": "component",
+      "repeatable": true,
+      "component": "section.section2"
+    },
+    "Section3": {
+      "displayName": "Section3",
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section3"
+    },
+    "Section4": {
+      "displayName": "Section4",
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section4"
+    },
+    "Section2TopContent": {
+      "displayName": "Section2TopContent",
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section2-top-content"
+    },
+    "SeoCards": {
+      "displayName": "Seo Industries Cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.seo-industries-cards"
+    },
+    "SeoIndustriesText": {
+      "displayName": "Seo Industries Text",
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo-industries-text"
+    },
+    "SeoCaseStudies": {
+      "displayName": "Case Studies(SEO)",
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.case-studies-seo"
+    },
+    "SeoCaseStudiesText": {
+      "displayName": "Seo Case Studies Text",
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo-case-studies-text"
+    },
+    "SocialMediaContent": {
+      "displayName": "SocialMediaContent",
+      "type": "component",
+      "repeatable": false,
+      "component": "social.social-media-content"
+    },
+    "CardsSection": {
+      "displayName": "Graphic Designing Cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "graphic.graphic-designing-cards"
+    },
+    "CardsSectionTitle": {
+      "displayName": "CardsSectionTitle",
+      "type": "component",
+      "repeatable": false,
+      "component": "title.cards-section-title"
+    },
+    "TextWithImage": {
+      "displayName": "TextWithImage",
+      "type": "component",
+      "repeatable": false,
+      "component": "text.text-with-image"
+    },
+    "EmailMarketingProcess": {
+      "displayName": "EmailMarketingProcess",
+      "type": "component",
+      "repeatable": true,
+      "component": "email.email-marketing-process"
+    },
+    "EmailMarketingProcessHead": {
+      "displayName": "EmailMarketingProcessHead",
+      "type": "component",
+      "repeatable": false,
+      "component": "email.email-marketing-process-head"
+    },
+    "PpcSection": {
+      "displayName": "PpcSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "ppc.ppc-section"
+    },
+    "CmsContent": {
+      "displayName": "CmsContent",
+      "type": "component",
+      "repeatable": true,
+      "component": "cms.cms-content"
+    },
+    "CmsHeadText": {
+      "displayName": "CmsHeadText",
+      "type": "component",
+      "repeatable": false,
+      "component": "cms.cms-head-text"
+    }
+  }
+}

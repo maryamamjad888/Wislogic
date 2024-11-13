@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_home_page_teams",
+  "info": {
+    "displayName": "HomePageTeam",
+    "icon": "arrowRight"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Pictures": {
+      "displayName": "Pictures",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.pictures"
+    }
+  }
+}

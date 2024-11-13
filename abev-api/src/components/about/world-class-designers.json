@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_world_class_designers",
+  "info": {
+    "displayName": "WorldClassDesigners",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Images": {
+      "displayName": "Images",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.images"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

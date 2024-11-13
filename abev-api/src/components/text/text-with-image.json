@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_text_text_with_images",
+  "info": {
+    "displayName": "TextWithImage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "blocks"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Title2": {
+      "type": "string"
+    },
+    "Description2": {
+      "type": "blocks"
+    },
+    "Image2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ButtonTitle": {
+      "type": "string"
+    }
+  }
+}

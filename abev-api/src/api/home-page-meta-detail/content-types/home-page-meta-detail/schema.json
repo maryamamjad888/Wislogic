@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_page_meta_details",
+  "info": {
+    "singularName": "home-page-meta-detail",
+    "pluralName": "home-page-meta-details",
+    "displayName": "HomePageMetaDetail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MetaTitle": {
+      "type": "text"
+    },
+    "MetaDescription": {
+      "type": "text"
+    }
+  }
+}

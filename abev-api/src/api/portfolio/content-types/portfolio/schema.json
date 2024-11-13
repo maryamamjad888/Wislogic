@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolios",
+  "info": {
+    "singularName": "portfolio",
+    "pluralName": "portfolios",
+    "displayName": "Portfolio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "ProjectOverview": {
+      "type": "richtext",
+      "required": false
+    },
+    "ImagesCollage": {
+      "displayName": "collage",
+      "type": "component",
+      "repeatable": true,
+      "component": "collage.collage"
+    },
+    "Challenge": {
+      "type": "richtext"
+    },
+    "solution": {
+      "displayName": "Sloution",
+      "type": "component",
+      "repeatable": false,
+      "component": "sol.sloution"
+    },
+    "Result": {
+      "displayName": "Result",
+      "type": "component",
+      "repeatable": false,
+      "component": "result.result"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_block_mini_blocks",
+  "info": {
+    "displayName": "MiniBlocks"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "DetailText": {
+      "type": "text"
+    }
+  }
+}

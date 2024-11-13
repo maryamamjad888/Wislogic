@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_images_collages",
+  "info": {
+    "displayName": "Collage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

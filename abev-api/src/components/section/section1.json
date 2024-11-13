@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_section_section1s",
+  "info": {
+    "displayName": "Section1",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "LeftImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "RightText": {
+      "type": "blocks"
+    },
+    "ButtonTitle": {
+      "type": "string"
+    }
+  }
+}

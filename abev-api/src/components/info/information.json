@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_info_information",
+  "info": {
+    "displayName": "Information",
+    "icon": "arrowRight"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_section4s",
+  "info": {
+    "displayName": "Section4",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "DetailText": {
+      "type": "blocks"
+    },
+    "ButtonTitle": {
+      "type": "string"
+    }
+  }
+}

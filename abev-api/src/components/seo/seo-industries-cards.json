@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_seo_seo_industries_cards",
+  "info": {
+    "displayName": "Seo Industries Cards"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "CardIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

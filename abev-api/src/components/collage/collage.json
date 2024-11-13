@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_collage_collages",
+  "info": {
+    "displayName": "collage"
+  },
+  "options": {},
+  "attributes": {
+    "GridImages": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

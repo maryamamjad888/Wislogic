@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "MegaMenuImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "HomePageCards": {
+      "displayName": "HomePageCards",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.home-page-cards"
+    },
+    "ServiceDetailPageContent": {
+      "displayName": "ServiceDetailPageContent",
+      "type": "component",
+      "repeatable": false,
+      "component": "detail.service-detail-page-content"
+    },
+    "MetaTitle": {
+      "type": "text"
+    },
+    "MetaDescription": {
+      "type": "text"
+    }
+  }
+}

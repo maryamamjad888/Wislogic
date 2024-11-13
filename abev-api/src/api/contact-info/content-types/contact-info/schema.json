@@ -1,0 +1,60 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_infos",
+  "info": {
+    "singularName": "contact-info",
+    "pluralName": "contact-infos",
+    "displayName": "Contact Info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "phoneNumber1": {
+      "type": "string",
+      "default": "(+321) 895-980 008"
+    },
+    "email1": {
+      "type": "string",
+      "default": "hello@aveb.com"
+    },
+    "address1": {
+      "type": "string",
+      "default": "2750 Quadra Street Victoria, Canada."
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "BannerImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ButtonTitle": {
+      "type": "string"
+    },
+    "ContactText": {
+      "type": "text"
+    },
+    "phoneNumber2": {
+      "type": "string"
+    },
+    "address2": {
+      "type": "text"
+    },
+    "MetaTitle": {
+      "type": "text"
+    },
+    "MetaDescription": {
+      "type": "text"
+    }
+  }
+}

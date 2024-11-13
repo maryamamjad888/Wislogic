@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_stat_stats",
+  "info": {
+    "displayName": "Stats"
+  },
+  "options": {},
+  "attributes": {
+    "IconImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Number": {
+      "type": "text"
+    },
+    "Text": {
+      "type": "text"
+    }
+  }
+}

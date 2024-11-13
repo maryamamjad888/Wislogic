@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_social_socials",
+  "info": {
+    "displayName": "Social",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "IconName": {
+      "type": "string",
+      "required": true
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

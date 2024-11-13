@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_section_section5s",
+  "info": {
+    "displayName": "Section5",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Step1": {
+      "type": "blocks"
+    },
+    "Step2": {
+      "type": "blocks"
+    },
+    "Step3": {
+      "type": "blocks"
+    },
+    "Step4": {
+      "type": "blocks"
+    }
+  }
+}

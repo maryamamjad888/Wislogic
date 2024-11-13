@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_cards_s_cards",
+  "info": {
+    "displayName": "s cards",
+    "icon": "discuss",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "LeftSideImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Section2": {
+      "displayName": "section2",
+      "type": "component",
+      "repeatable": false,
+      "component": "service.section2"
+    }
+  }
+}

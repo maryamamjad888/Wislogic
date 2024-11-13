@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_section2_top_contents",
+  "info": {
+    "displayName": "Section2TopContent",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

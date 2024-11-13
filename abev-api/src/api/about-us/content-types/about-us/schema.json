@@ -1,0 +1,64 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "About Us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeroSection": {
+      "displayName": "HeroSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero-section"
+    },
+    "OurStory": {
+      "displayName": "OurStory",
+      "type": "component",
+      "repeatable": false,
+      "component": "story.our-story"
+    },
+    "CEO": {
+      "displayName": "CEO",
+      "type": "component",
+      "repeatable": false,
+      "component": "ceo.ceo"
+    },
+    "ChooseWislogic": {
+      "displayName": "ChooseWislogic",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.choose-wislogic"
+    },
+    "WorldClassDesigners": {
+      "displayName": "WorldClassDesigners",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.world-class-designers"
+    },
+    "OurTeam": {
+      "displayName": "Team",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.team"
+    },
+    "HomePageTeam": {
+      "displayName": "HomePageTeam",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.home-page-team"
+    },
+    "MetaTitle": {
+      "type": "text"
+    },
+    "MetaDescription": {
+      "type": "text"
+    }
+  }
+}

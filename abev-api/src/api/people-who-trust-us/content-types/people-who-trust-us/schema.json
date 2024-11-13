@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "people_who_trust_uses",
+  "info": {
+    "singularName": "people-who-trust-us",
+    "pluralName": "people-who-trust-uses",
+    "displayName": "People-who-trust-us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Partners": {
+      "displayName": "Partners",
+      "type": "component",
+      "repeatable": true,
+      "component": "partner.partners"
+    }
+  }
+}

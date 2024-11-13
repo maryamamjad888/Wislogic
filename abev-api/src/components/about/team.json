@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_teams",
+  "info": {
+    "displayName": "Team"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "TeamImages": {
+      "displayName": "TeamImages",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.team-images"
+    }
+  }
+}

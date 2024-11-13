@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_email_email_marketing_processes",
+  "info": {
+    "displayName": "EmailMarketingProcess"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "text"
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
